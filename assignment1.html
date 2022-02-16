@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Movie Background</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+</head>
+
+body {
+  margin: 0;
+  font-color: #ffffff;
+  font-family: Arial;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+}
+
+.back-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 25%;
+    width: 25%;
+    display: flex;
+    z-index: 1;
+    font-size: 1px;
+}
+
+.name-box{
+    position: fixed;
+    top: 35%;
+    left: 30%;
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.greeting-box{
+    position: fixed;
+    top: 50%;
+    left: 36%;
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.about-box{
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    width: 15%;
+    display: flex;
+    color: #ffffff;
+    z-index: 1;
+    font-size: 1px;
+    float: inline-start;
+}
+
+.resume-box{
+    position: fixed;
+    top: 15%;
+    right: 5%;
+    width: 15%;
+    display: flex;
+    color: #ffffff;
+    z-index: 1;
+    float: inline-start;
+}
+
+.hobbies-box{
+    position: fixed;
+    top: 20%;
+    right: 5%;
+    width: 15%;
+    display: flex;
+    color: #ffffff;
+    z-index: 1;
+    float: inline-start;
+}
+
+.work-box{
+    position: fixed;
+    top: 25%;
+    right: 5%;
+    width: 15%;
+    display: flex;
+    color: #ffffff;
+    z-index: 1;
+    float: inline-start;
+}
+
+
+
+
+
+</style>
+<script src="https://kit.fontawesome.com/7a0aed8c3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="back-box">
+    <p><a href="spgilm.github.io" style="font-size:1vw"> Back to Index </a></p>
+</div>
+
+<video autoplay muted loop id="myVideo">
+  <source src="background.mp4" type="video/mp4">
+</video>
+
+<div class="name-box">
+    <h2 style="font-size:5vw;">Sean Gilmore</h2>
+</div>
+
+<div class="greeting-box">
+    <h4 style="font-size:2vw;">Here's my home page.</h4>
+</div>
+
+
+<div class="about-box">
+    <h4 style="font-size:2vw;"><i class="fa-solid fa-face-smile"></i> About Me</h4>
+</div>
+<div class="resume-box">
+    <h4 style="font-size:2vw;"><i class="fa-solid fa-note-sticky"></i> Resume</h4>
+</div>
+<div class="hobbies-box">
+    <h4 style="font-size:2vw;"><i class="fa-solid fa-suitcase"></i> Hobbies</h4>
+</div>
+<div class="work-box">
+    <h4 style="font-size:2vw;"><i class="fa-solid fa-hammer"></i> Work</h4>
+</div>
+
+
+</body>
+</html>
